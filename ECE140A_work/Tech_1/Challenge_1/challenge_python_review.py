@@ -8,7 +8,6 @@ def print_squares():
     nums = [1,2,3,4,5,6,7,8,9,10]
     nums_squared = [x**2 for x in nums] # square each element and store in a new list
 
-
 #Question 2: Write a function called average() 
 #that takes in a list of numbers and returns the average of the numbers. 
 #Design your function so that it returns None when an invalid input is passed into the function. 
@@ -62,14 +61,7 @@ def filter_strings(list_of_strings):
                 result.append(list_of_strings[i])
     return result
 
-def is_palindrome(number):
-    
-
-
-
-
-
-
+#def is_palindrome(number):
 
 if __name__ == '__main__':
     #print(prime_100())
