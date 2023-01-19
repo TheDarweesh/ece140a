@@ -1,0 +1,31 @@
+
+h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+ }
+ p { 
+   color: white;
+   text-align: center;
+ }
+ 
+ body {
+   background-color: black
+ }
+ 
+ .title{
+   background: dark maroon;
+   padding: 0px;
+   border: solid;
+   margin: 0px auto;
+ }
+ 
+ .experience { 
+   display: block;
+   width: 90rem; 
+   height: 11rem;
+   background: red;
+   padding: 0px 0px;
+   border: solid black;
+   margin: 20px auto;  
+ }
