@@ -1,0 +1,27 @@
+body { 
+    background: #e7c9a9 ;
+  }
+table, th, td {
+  border:1px solid black;
+  background: #00AFFF;
+  font-family: system-ui;
+  padding: 15px;
+  
+}
+
+#tabtitle{
+  position: relative; 
+  left: 20%;
+  top: 6%;
+  margin: 0;
+  width: 30rem;
+}
+
+.office { 
+  padding: 2px;
+  background-color: orange;
+}
+.lecture { 
+  padding: 2px;
+  background-color: green;
+}

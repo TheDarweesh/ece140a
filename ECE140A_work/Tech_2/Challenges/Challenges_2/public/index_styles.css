@@ -1,0 +1,33 @@
+.title{
+    text-align: center;
+    font-size: 2rem;
+    font-family: system-ui;
+    margin: auto;
+  }
+  
+  body { 
+      background: #00AFFF;
+    }
+  
+  #stock1{
+    margin: 0px 0px 10px;
+  }
+  #stock2{
+    margin: 0px 0px 10px;
+  }
+  #stock3{
+    margin: 0px 0px 10px;
+  }
+  
+  
+  #formblock {
+    width: 15rem;
+    font-family: system-ui;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background: #eee;
+    border-radius: 15px;
+  }
+  
+  
