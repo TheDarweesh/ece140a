@@ -25,7 +25,6 @@ def post_form(request: Request, symbol: str = Form(...)):
     # store the response of URL
     response = urlopen(url)
 
-
     # store the JSON response from URL
     data_json = json.loads(response.read())
 

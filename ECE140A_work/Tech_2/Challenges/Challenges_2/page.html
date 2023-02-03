@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Challenge 2 API</title>
+    <link rel="stylesheet" href="public\page_styles.css">
+</head>
+
+<body>
+    <h1 class="title">Slidespace Student Verification</h1>
+    <div class='parent'>
+        <h1>Enter your information:</h1>
+        <div class='formblock'>
+            <form class="form1" action="https://slidespace.icu/student" method="POST">
+                <label for="first_name">Enter First Name:</label>
+                <input type="text" name="first_name">
+                <label for="last_name">Enter Last Name:</label>
+                <input type="text" name="last_name">
+                <label for="student_id">Enter Student ID:</label>
+                <input type="text" name="student_id">
+                <input class='btn' type="submit" value="Submit">
+            </form>
+        </div>
+        <div class='formblock'>
+            <form method="PUT" class="form2" action="https://slidespace.icu/api/studentfetch">
+                <label for="first_name">Enter First Name:</label>
+                <input type="text" name="first_name" id="first_name" reqiured>
+                <label for="last_name">Enter Last Name:</label>
+                <input type="text" name="last_name" id="last_name" reqiured>
+                <label for="student_id">Enter Student ID:</label>
+                <input type="text" name="student_id" id="student_id" reqiured>
+                <input class='btn' type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <h2>
+        Results: <span class='results'></span>
+    </h2>
+    <script src='public/js/slidespace.js'></script>
+</body>
+
+</html>

@@ -33,6 +33,7 @@ def get_redirect() -> HTMLResponse:
 """
 Form: POST Methods
 """
+
 # Example route: return JSON
 @app.post("/")
 def post_names(request: Request, fname: str = Form(...), lname: str = Form(...)):

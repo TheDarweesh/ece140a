@@ -1,0 +1,43 @@
+
+
+.parent { 
+  align-content: center;
+  float: center;
+  margin-left: 10rem;
+}
+
+.parent h1{
+  padding: 0px;
+  margin: 0px 70px;
+}
+.title{
+  margin: 0px 160px;
+}
+.form1 {
+  background-color: rgba(236, 13, 13, 0.751);
+  font-family: system-ui;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  width: 10rem;
+  height: 9rem;
+  float: left;
+
+}
+.form2 {
+  
+  text-align: center;
+  background-color: #aeee;
+  float: left;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+  font-family: system-ui;
+  width: 10rem;
+  height: 9rem;
+}
+
+  body { 
+      background: #00AFFF;
+    }
